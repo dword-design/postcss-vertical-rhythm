@@ -1,9 +1,9 @@
 <!-- TITLE/ -->
-# postcss-vertical-rhythm
+# @dword-design/postcss-vertical-rhythm
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-[![NPM version](https://img.shields.io/npm/v/postcss-vertical-rhythm.svg)](https://npmjs.org/package/postcss-vertical-rhythm)
+[![NPM version](https://img.shields.io/npm/v/@dword-design/postcss-vertical-rhythm.svg)](https://npmjs.org/package/@dword-design/postcss-vertical-rhythm)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
 [![Build status](https://img.shields.io/github/workflow/status/dword-design/postcss-vertical-rhythm/build)](https://github.com/dword-design/postcss-vertical-rhythm/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/postcss-vertical-rhythm)](https://coveralls.io/github/dword-design/postcss-vertical-rhythm)
@@ -37,10 +37,10 @@
 
 ```bash
 # NPM
-$ npm install postcss-vertical-rhythm
+$ npm install @dword-design/postcss-vertical-rhythm
 
 # Yarn
-$ yarn add postcss-vertical-rhythm
+$ yarn add @dword-design/postcss-vertical-rhythm
 ```
 <!-- /INSTALL -->
 

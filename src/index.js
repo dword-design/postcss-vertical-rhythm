@@ -1,31 +1,32 @@
-import postcssCustomUnit from 'postcss-custom-unit'
 import modularscale from 'modularscale'
+import postcssCustomUnit from 'postcss-custom-unit'
 
-export default ({ verticalRhythm = 12, fontSize = 16, /*capHeight = .68, */modularScale } = {}) => {
-
-  //const shift = (fontSize, lineHeight) =>
+export default config => {
+  // const shift = (fontSize, lineHeight) =>
   //  `${(parseFloat(lineHeight) - parseFloat(fontSize) * capHeight) / 2}rem`
-
+  config = { fontSize: 16, verticalRhythm: 12, ...config }
   return postcssCustomUnit({
     units: [
       {
+        convert: value => `${modularscale(value, config.modularScale)}rem`,
         from: 'ms',
-        convert: value => `${modularscale(value, modularScale)}rem`,
       },
       {
+        convert: value =>
+          `${(value * config.verticalRhythm) / config.fontSize}rem`,
         from: 'vr',
-        convert: value => `${value * verticalRhythm / fontSize}rem`,
       },
     ],
   })
-  /*return postcssFunctions({
+}
+/* return postcssFunctions({
     functions: {
       shift,
       negativeShift: (fontSize, lineHeight) =>
         `-${shift(fontSize, lineHeight)}`,
     },
-  })(root, result)*/
-  /*
+  })(root, result) */
+/*
   rules: [
     {
       type: 'helper',
@@ -38,5 +39,4 @@ export default ({ verticalRhythm = 12, fontSize = 16, /*capHeight = .68, */modul
         'margin-bottom': 'negativeShift($0, $1)',
       },
     },
-  ],*/
-}
+  ], */

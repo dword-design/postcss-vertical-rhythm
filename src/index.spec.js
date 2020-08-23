@@ -1,16 +1,20 @@
-import postcss from 'postcss'
-import plugin from '.'
 import { property } from '@dword-design/functions'
+import postcss from 'postcss'
+
+import plugin from '.'
 
 export default {
   'modular scale': async () => {
     const processor = postcss([plugin({ modularScale: 'minor second' })])
-    const css = processor.process('body { padding: 2vr; font-size: 1ms }')
+    const css =
+      processor.process('body { padding: 2vr; font-size: 1ms }')
       |> await
       |> property('css')
-    expect(css).toEqual('body { padding: 1.5rem; font-size: 1.0666666666666667rem }')
+    expect(css).toEqual(
+      'body { padding: 1.5rem; font-size: 1.0666666666666667rem }'
+    )
   },
-  /*rhythm: () => withLocalTmpDir(async () => {
+  /* rhythm: () => withLocalTmpDir(async () => {
     await outputFile('pages/index.js', endent`
       export default {
         render: () => <div class="R(0ms,2vr)">Hello world</div>,
@@ -53,5 +57,5 @@ export default {
     } finally {
       nuxt.close()
     }
-  }),*/
+  }), */
 }
