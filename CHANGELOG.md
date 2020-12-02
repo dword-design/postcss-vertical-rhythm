@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/postcss-vertical-rhythm/compare/v1.0.0...v1.0.1) (2020-12-02)
+
+
+### Bug Fixes
+
+* **config:** Update changed files ([dfb65e7](https://github.com/dword-design/postcss-vertical-rhythm/commit/dfb65e7901cace37e2eac175ed04d49ececf385a))
+
 # 1.0.0 (2020-08-23)
 
 
