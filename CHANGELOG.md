@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/postcss-vertical-rhythm/compare/v1.0.5...v1.0.6) (2021-03-23)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v3 ([#15](https://github.com/dword-design/postcss-vertical-rhythm/issues/15)) ([51e0d8b](https://github.com/dword-design/postcss-vertical-rhythm/commit/51e0d8b8d963d0d76b5dc687510b361bf355f37c))
+
 ## [1.0.5](https://github.com/dword-design/postcss-vertical-rhythm/compare/v1.0.4...v1.0.5) (2021-03-22)
 
 
