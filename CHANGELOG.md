@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/dword-design/postcss-vertical-rhythm/compare/v1.0.6...v1.0.7) (2021-03-31)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#16](https://github.com/dword-design/postcss-vertical-rhythm/issues/16)) ([71ed10e](https://github.com/dword-design/postcss-vertical-rhythm/commit/71ed10e6d4460c81f63de28d1eb3ee754d8bdfa9))
+
 ## [1.0.6](https://github.com/dword-design/postcss-vertical-rhythm/compare/v1.0.5...v1.0.6) (2021-03-23)
 
 
