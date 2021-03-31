@@ -6,6 +6,7 @@ import plugin from '.'
 export default {
   'modular scale': async () => {
     const processor = postcss([plugin({ modularScale: 'minor second' })])
+
     const css =
       processor.process('body { padding: 2vr; font-size: 1ms }')
       |> await
