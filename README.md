@@ -64,7 +64,7 @@ $ yarn add @dword-design/postcss-vertical-rhythm
 <!-- LICENSE/ -->
 ## Contribute
 
-Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/postcss-vertical-rhythm/issues) or [pull request](https://github.com/dword-design/postcss-vertical-rhythm/pulls)! ⚙️
+Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/postcss-vertical-rhythm/issues) or a [pull request](https://github.com/dword-design/postcss-vertical-rhythm/pulls)! ⚙️
 
 ## Support
 

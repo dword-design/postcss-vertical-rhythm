@@ -5,6 +5,7 @@ export default config => {
   // const shift = (fontSize, lineHeight) =>
   //  `${(parseFloat(lineHeight) - parseFloat(fontSize) * capHeight) / 2}rem`
   config = { fontSize: 16, verticalRhythm: 12, ...config }
+
   return postcssCustomUnit({
     units: [
       {
