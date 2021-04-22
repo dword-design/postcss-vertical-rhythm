@@ -1,6 +1,7 @@
 {
   "name": "@dword-design/postcss-vertical-rhythm",
   "version": "1.0.9",
+  "description": "",
   "repository": "dword-design/postcss-vertical-rhythm",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
