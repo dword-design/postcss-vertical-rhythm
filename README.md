@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-  <p>
+<p>
     <a href="https://npmjs.org/package/@dword-design/postcss-vertical-rhythm">
       <img
         src="https://img.shields.io/npm/v/@dword-design/postcss-vertical-rhythm.svg"
